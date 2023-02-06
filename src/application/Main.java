@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 
@@ -17,9 +18,15 @@ public class Main extends Application {
 			
 			stage.setScene(scene);
 			stage.setTitle("Aplicação Comercial - Controle de Estoque");
+
+			Image img = new Image("/gui/imagens/icons8-investimento-100.png");
+			stage.getIcons().add(img);
+			
 			stage.setMaximized(true);
 			stage.setResizable(false);
+
 			stage.show();
+			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}

@@ -6,12 +6,12 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX">
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JDBC-PostgreSql">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JDBC-PostgreSql">
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX-v19">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
